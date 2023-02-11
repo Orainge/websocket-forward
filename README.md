@@ -15,6 +15,8 @@
 
 ## 1.2 系统示意图
 
+![系统示意图](https://cdn.jsdelivr.net/gh/Orainge/websocket-forward/pic/pic1.png)
+
 # 2 技术说明
 
 ## 2.1 系统项目介绍
