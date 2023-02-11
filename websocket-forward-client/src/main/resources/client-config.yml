@@ -1,0 +1,11 @@
+# 服务端配置
+websocket-server:
+  # 服务器 URL (http->ws; https->wss)
+  url: ws://localhost:8080/exchange
+  # 连接服务端失败后等待多少秒后重试 (默认 5 秒)
+  reconnect-wait: 5
+
+# 客户端配置
+websocket-client:
+  id: TEST_CLIENT_ID # 客户端ID
+  security-key: TEST_CLIENT_KEY # 客户端密钥

@@ -1,0 +1,13 @@
+# 服务端配置
+websocket-server:
+  response:
+    time-out: 20000 # 服务端等待客户端回复报文的时间(单位：毫秒)
+
+# 允许的客户端列表
+websocket-client:
+  list:
+    - id: TEST_CLIENT_ID # 客户端 ID
+      key: TEST_CLIENT_KEY # 客户端密钥
+      description: "客户端描述" # 客户端描述
+      # 是否由服务器定时发送 ping-pong 信息进行保活 (默认不开启)
+      # keep-alive: true
